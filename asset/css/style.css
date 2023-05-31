@@ -1,0 +1,59 @@
+.headings{
+    font-family: poppins;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+
+button{
+    border:none;
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+}
+
+.row.frames {
+    width: 100%;
+    height: 1500px;
+}
+
+#sidebar,
+#contentarea,
+#notifications {
+    border-right: 1px solid rgb(114, 114, 114);
+    border-bottom: 1px solid grey;
+}
+#sidebar{
+    position: relative;
+}
+
+#menus{
+    position:absolute;
+    top:50px;
+    left:0px;
+}
+#row1,#row2,#row3,#row4{
+    text-align: center;
+    color:white;
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: rgb(63, 63, 63);
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all .5s;
+    font-family: poppins;
+}
+
+#row1:hover{
+    filter: drop-shadow(2px 5px 10px rgb(0, 0, 0));
+}
+#row2:hover{
+    filter: drop-shadow(2px 5px 10px rgb(0, 0, 0));
+}
+#row3:hover{
+    filter: drop-shadow(2px 5px 10px rgb(0, 0, 0));
+}
+#row4:hover{
+    filter: drop-shadow(2px 5px 10px rgb(0, 0, 0));
+}
+
+
+
